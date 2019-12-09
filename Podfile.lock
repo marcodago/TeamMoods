@@ -1,0 +1,22 @@
+PODS:
+  - Charts (3.4.0):
+    - Charts/Core (= 3.4.0)
+  - Charts/Core (3.4.0)
+  - PMAlertController (4.0.0)
+
+DEPENDENCIES:
+  - Charts
+  - PMAlertController
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - PMAlertController
+
+SPEC CHECKSUMS:
+  Charts: 74c9f256eaf0460c0c416522d1cf8c634ea6b286
+  PMAlertController: 5fad2da8b9eb687134ed50c3462fed12c3afe976
+
+PODFILE CHECKSUM: 578241eaf5daa80b499d401979b834e2f4f62490
+
+COCOAPODS: 1.8.4

@@ -3,27 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59095C601674580F3916793B /* Pods_TeamMoods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DA799C058C155F091147F0 /* Pods_TeamMoods.framework */; };
 		914AA82A239E79FF00C258FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AA829239E79FF00C258FE /* AppDelegate.swift */; };
 		914AA82C239E79FF00C258FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AA82B239E79FF00C258FE /* SceneDelegate.swift */; };
-		914AA82E239E79FF00C258FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AA82D239E79FF00C258FE /* ViewController.swift */; };
-		914AA831239E79FF00C258FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914AA82F239E79FF00C258FE /* Main.storyboard */; };
 		914AA833239E7A0100C258FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914AA832239E7A0100C258FE /* Assets.xcassets */; };
 		914AA836239E7A0100C258FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914AA834239E7A0100C258FE /* LaunchScreen.storyboard */; };
+		914AA848239E7ADE00C258FE /* TabBarConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AA83F239E7ADE00C258FE /* TabBarConfigurationViewController.swift */; };
+		914AA849239E7ADE00C258FE /* MyButtonsLayouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AA840239E7ADE00C258FE /* MyButtonsLayouts.swift */; };
+		914AA84A239E7ADE00C258FE /* MoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AA841239E7ADE00C258FE /* MoodsViewController.swift */; };
+		914AA84B239E7ADE00C258FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914AA842239E7ADE00C258FE /* Main.storyboard */; };
+		914AA84C239E7ADE00C258FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914AA843239E7ADE00C258FE /* LaunchScreen.storyboard */; };
+		914AA84D239E7ADE00C258FE /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AA844239E7ADE00C258FE /* BarChartViewController.swift */; };
+		914AA84E239E7ADE00C258FE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AA845239E7ADE00C258FE /* SettingsViewController.swift */; };
+		914AA84F239E7ADE00C258FE /* CommentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AA846239E7ADE00C258FE /* CommentsTableViewController.swift */; };
+		914AA850239E7ADE00C258FE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AA847239E7ADE00C258FE /* CustomTableViewCell.swift */; };
+		914AA855239E7B2900C258FE /* red_smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = 914AA851239E7B2800C258FE /* red_smiley.png */; };
+		914AA856239E7B2900C258FE /* yellow_smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = 914AA852239E7B2800C258FE /* yellow_smiley.png */; };
+		914AA857239E7B2900C258FE /* green_smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = 914AA853239E7B2800C258FE /* green_smiley.png */; };
+		914AA858239E7B2900C258FE /* moodmarbles.png in Resources */ = {isa = PBXBuildFile; fileRef = 914AA854239E7B2900C258FE /* moodmarbles.png */; };
+		914AA85A239E7C3F00C258FE /* Caliber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AA859239E7C3F00C258FE /* Caliber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6FF143E4B938AA96F710B8CF /* Pods-TeamMoods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamMoods.debug.xcconfig"; path = "Target Support Files/Pods-TeamMoods/Pods-TeamMoods.debug.xcconfig"; sourceTree = "<group>"; };
 		914AA826239E79FF00C258FE /* TeamMoods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamMoods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		914AA829239E79FF00C258FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		914AA82B239E79FF00C258FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		914AA82D239E79FF00C258FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		914AA830239E79FF00C258FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		914AA832239E7A0100C258FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		914AA835239E7A0100C258FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		914AA837239E7A0100C258FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		914AA83F239E7ADE00C258FE /* TabBarConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarConfigurationViewController.swift; sourceTree = "<group>"; };
+		914AA840239E7ADE00C258FE /* MyButtonsLayouts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButtonsLayouts.swift; sourceTree = "<group>"; };
+		914AA841239E7ADE00C258FE /* MoodsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodsViewController.swift; sourceTree = "<group>"; };
+		914AA842239E7ADE00C258FE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		914AA843239E7ADE00C258FE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		914AA844239E7ADE00C258FE /* BarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
+		914AA845239E7ADE00C258FE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		914AA846239E7ADE00C258FE /* CommentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsTableViewController.swift; sourceTree = "<group>"; };
+		914AA847239E7ADE00C258FE /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		914AA851239E7B2800C258FE /* red_smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_smiley.png; sourceTree = "<group>"; };
+		914AA852239E7B2800C258FE /* yellow_smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow_smiley.png; sourceTree = "<group>"; };
+		914AA853239E7B2800C258FE /* green_smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_smiley.png; sourceTree = "<group>"; };
+		914AA854239E7B2900C258FE /* moodmarbles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moodmarbles.png; sourceTree = "<group>"; };
+		914AA859239E7C3F00C258FE /* Caliber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Caliber.swift; sourceTree = "<group>"; };
+		BF4DFC6FAFF89C60A1AE9AD9 /* Pods-TeamMoods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamMoods.release.xcconfig"; path = "Target Support Files/Pods-TeamMoods/Pods-TeamMoods.release.xcconfig"; sourceTree = "<group>"; };
+		E8DA799C058C155F091147F0 /* Pods_TeamMoods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamMoods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59095C601674580F3916793B /* Pods_TeamMoods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		907B4DB17114904BEBA4D768 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8DA799C058C155F091147F0 /* Pods_TeamMoods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		914AA81D239E79FF00C258FE = {
 			isa = PBXGroup;
 			children = (
 				914AA828239E79FF00C258FE /* TeamMoods */,
 				914AA827239E79FF00C258FE /* Products */,
+				914AA853239E7B2800C258FE /* green_smiley.png */,
+				914AA854239E7B2900C258FE /* moodmarbles.png */,
+				914AA851239E7B2800C258FE /* red_smiley.png */,
+				914AA852239E7B2800C258FE /* yellow_smiley.png */,
+				B7310EEE1BD873067860348C /* Pods */,
+				907B4DB17114904BEBA4D768 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +100,31 @@
 			isa = PBXGroup;
 			children = (
 				914AA829239E79FF00C258FE /* AppDelegate.swift */,
+				914AA844239E7ADE00C258FE /* BarChartViewController.swift */,
+				914AA859239E7C3F00C258FE /* Caliber.swift */,
+				914AA846239E7ADE00C258FE /* CommentsTableViewController.swift */,
+				914AA847239E7ADE00C258FE /* CustomTableViewCell.swift */,
+				914AA843239E7ADE00C258FE /* LaunchScreen.storyboard */,
+				914AA842239E7ADE00C258FE /* Main.storyboard */,
+				914AA841239E7ADE00C258FE /* MoodsViewController.swift */,
+				914AA840239E7ADE00C258FE /* MyButtonsLayouts.swift */,
 				914AA82B239E79FF00C258FE /* SceneDelegate.swift */,
-				914AA82D239E79FF00C258FE /* ViewController.swift */,
-				914AA82F239E79FF00C258FE /* Main.storyboard */,
+				914AA845239E7ADE00C258FE /* SettingsViewController.swift */,
+				914AA83F239E7ADE00C258FE /* TabBarConfigurationViewController.swift */,
 				914AA832239E7A0100C258FE /* Assets.xcassets */,
 				914AA834239E7A0100C258FE /* LaunchScreen.storyboard */,
 				914AA837239E7A0100C258FE /* Info.plist */,
 			);
 			path = TeamMoods;
+			sourceTree = "<group>";
+		};
+		B7310EEE1BD873067860348C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FF143E4B938AA96F710B8CF /* Pods-TeamMoods.debug.xcconfig */,
+				BF4DFC6FAFF89C60A1AE9AD9 /* Pods-TeamMoods.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 914AA83A239E7A0100C258FE /* Build configuration list for PBXNativeTarget "TeamMoods" */;
 			buildPhases = (
+				CB4681DDB81E795224BC980C /* [CP] Check Pods Manifest.lock */,
 				914AA822239E79FF00C258FE /* Sources */,
 				914AA823239E79FF00C258FE /* Frameworks */,
 				914AA824239E79FF00C258FE /* Resources */,
+				424E80CD1BEF95EBED5D1ABD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,35 +188,81 @@
 			buildActionMask = 2147483647;
 			files = (
 				914AA836239E7A0100C258FE /* LaunchScreen.storyboard in Resources */,
+				914AA857239E7B2900C258FE /* green_smiley.png in Resources */,
+				914AA855239E7B2900C258FE /* red_smiley.png in Resources */,
+				914AA856239E7B2900C258FE /* yellow_smiley.png in Resources */,
 				914AA833239E7A0100C258FE /* Assets.xcassets in Resources */,
-				914AA831239E79FF00C258FE /* Main.storyboard in Resources */,
+				914AA84C239E7ADE00C258FE /* LaunchScreen.storyboard in Resources */,
+				914AA84B239E7ADE00C258FE /* Main.storyboard in Resources */,
+				914AA858239E7B2900C258FE /* moodmarbles.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		424E80CD1BEF95EBED5D1ABD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeamMoods/Pods-TeamMoods-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeamMoods/Pods-TeamMoods-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeamMoods/Pods-TeamMoods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB4681DDB81E795224BC980C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeamMoods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		914AA822239E79FF00C258FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				914AA82E239E79FF00C258FE /* ViewController.swift in Sources */,
+				914AA85A239E7C3F00C258FE /* Caliber.swift in Sources */,
+				914AA850239E7ADE00C258FE /* CustomTableViewCell.swift in Sources */,
+				914AA848239E7ADE00C258FE /* TabBarConfigurationViewController.swift in Sources */,
+				914AA84A239E7ADE00C258FE /* MoodsViewController.swift in Sources */,
+				914AA84E239E7ADE00C258FE /* SettingsViewController.swift in Sources */,
+				914AA84F239E7ADE00C258FE /* CommentsTableViewController.swift in Sources */,
 				914AA82A239E79FF00C258FE /* AppDelegate.swift in Sources */,
 				914AA82C239E79FF00C258FE /* SceneDelegate.swift in Sources */,
+				914AA849239E7ADE00C258FE /* MyButtonsLayouts.swift in Sources */,
+				914AA84D239E7ADE00C258FE /* BarChartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		914AA82F239E79FF00C258FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				914AA830239E79FF00C258FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		914AA834239E7A0100C258FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,35 +390,41 @@
 		};
 		914AA83B239E7A0100C258FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF143E4B938AA96F710B8CF /* Pods-TeamMoods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.001;
 				INFOPLIST_FILE = TeamMoods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ibm.TeamMoods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		914AA83C239E7A0100C258FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4DFC6FAFF89C60A1AE9AD9 /* Pods-TeamMoods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.001;
 				INFOPLIST_FILE = TeamMoods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ibm.TeamMoods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
